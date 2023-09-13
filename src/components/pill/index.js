@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
-import {PrimaryDark, PrimaryWhite} from '../../constants/colors';
+import {PrimaryDark, PrimaryWhite, SecondryDark} from '../../constants/colors';
 
 const Pill = ({text, isShowIcon}) => {
   return (
@@ -19,7 +19,7 @@ export default Pill;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
-    backgroundColor: PrimaryDark,
+    backgroundColor: SecondryDark,
     width: 110,
     borderRadius: 4,
     padding: 5,
